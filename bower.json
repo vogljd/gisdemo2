@@ -1,0 +1,33 @@
+{
+  "name": "eDisc.Web",
+  "homepage": "https://github.com/larimercounty/DA-eDiscoveryMvc",
+  "authors": [
+    "sullivkm <sullivkm@co.larimer.co.us>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "angular": "~1.4.7",
+    "angular-route": "~1.4.7",
+    "angular-bootstrap": "~0.14.3",
+    "angular-animate": "~1.4.7",
+    "angular-toastr": "~1.5.0",
+    "bootstrap": "~3.3.5",
+    "angular-loading-bar": "~0.8.0",
+    "angular-cookies": "~1.4.7"
+  }
+}
