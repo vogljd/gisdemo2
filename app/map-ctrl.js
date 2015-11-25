@@ -4,10 +4,12 @@
 	angular
 	.module("myMap")
 	.controller("mapController", mapController);
-
-	function mapController($scope, $http, $cookies, $location, mapservice) {
+	
+	mapController.$inject = ['$scope', '$http', '$cookies', '$location', 'mapservice', 'settings'];
+	
+	function mapController($scope, $http, $cookies, $location, mapservice, settings) {
 		var vm = this;
-
+		vm.settings = settings;
 		vm.map = {
 			basemap : "streets",
 			center : [-105.539, 40.609],

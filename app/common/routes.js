@@ -1,14 +1,7 @@
 (function () {
-  var app = angular.module("myMap", [
-	/* Vendor components */
-	'ui.bootstrap',
-	/* Core components */
-//	'ngStorage',
-	'ngCookies',
-	'ngRoute',
-	'ngSanitize',
-	'map.core'
-	]);
+	var app = angular.module("map.core");
+    app.$inject = ['$routeProvider'];
+
 	app.config(function($routeProvider) {
 			$routeProvider
 			// .when("main", {
@@ -18,5 +11,4 @@
 			// .otherwise({redirectTo:"/main"});
 	});
 
-	
-}())
+})();
